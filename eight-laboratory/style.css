@@ -1,0 +1,20 @@
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+.title,
+.info {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 24px;
+}
+
+#ip {
+	width: 200px;
+	height: 30px;
+	font-size: 16px;
+}
+
+.detail {
+	font-weight: bold;
+}
