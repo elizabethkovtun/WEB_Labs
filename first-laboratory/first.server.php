@@ -1,6 +1,6 @@
 <?php
 
-$senderName = 'kovtun.yelyzaveta1119@vu.cdu.edu.ua';
+$senderName = 'elizabethkovtun7@gmail.com';
 $address = htmlspecialchars($_POST['email']);
 $body = htmlspecialchars($_POST['message']);
 
