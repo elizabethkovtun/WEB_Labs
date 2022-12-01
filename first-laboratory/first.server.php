@@ -1,6 +1,6 @@
 <?php
 
-$senderName = 'elizabethkovtun7@gmail.com';
+$senderName = 'kovtun.yelyzaveta1119@vu.cdu.edu.ua';
 $address = htmlspecialchars($_POST['email']);
 $body = htmlspecialchars($_POST['message']);
 
@@ -24,7 +24,7 @@ if ($address == $senderName) {
       $mail->CharSet = "UTF-8";
       $mail->setFrom($senderName, 'Sender Name');
       $mail->Username = $senderName;
-      $mail->Password = "Z.10oVlQwertY";
+      $mail->Password = "AG83fYRB88SNt6";
       $mail->addAddress($address);
       $mail->Subject = "Service";
       $mail->msgHTML($body);
